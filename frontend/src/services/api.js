@@ -1,6 +1,7 @@
-import { axis } from "axis";
+import axios from 'axios';
 
-const api = axis.create({
-  baseUrl: ""
+const api = axios.create({
+  baseURL: 'http://127.0.0.1:3333'
 });
 
+export default api;
