@@ -36,6 +36,7 @@ export default function NewIncident() {
       alert('Novo caso cadastro com sucesso!');
       history.push('/profile');
     } catch (error) {
+      console.log(error);
       alert('Erro no cadastro, tente novamente.');
     }
   }
